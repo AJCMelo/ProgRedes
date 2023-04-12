@@ -39,4 +39,4 @@ url = 'https://resultados.tse.jus.br/oficial/ele2022/544/dados-simplificados/br/
 
 dados_retorno = requests.get(url).json()
 
-print(dados_retorno)
+print(dados_retorno)  # gerar dicionario e depois configurar arquivo  # solicitar: ano, sigla do estado, o br, o cargo e o id da eleição (ler documentação: fala sobre tudo isso que está sendo solicitado)
